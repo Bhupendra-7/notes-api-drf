@@ -17,7 +17,7 @@ This API supports user authentication, note creation, updating, deletion, and fi
 - Python 3.x
 - Django 4.x
 - Django REST Framework
-- SQLite (default; can be switched to PostgreSQL or others)
+- PostgreSQL
 - Token Authentication
 - Postman (for API testing)
 
