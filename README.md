@@ -55,6 +55,11 @@ git clone https://github.com/Bhupendra-7/notes-api-drf.git
 6. Run the development server
    python manage.py runserver
 
+Filtering Notes by Priority
+Authenticated users can filter their notes by priority using query parameters:
+Example: GET /api/notes/?priority=high
+Unauthenticated users get all notes regardless of the priority filter.
+
 Testing
 You can use Postman or similar API clients to test the endpoints. Remember to include the token in the Authorization header for protected routes:
 Authorization: Token your_token_here
